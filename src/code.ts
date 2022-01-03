@@ -1,3 +1,16 @@
-import * as Rx  from "rxjs";
+import { Observable } from "rxjs";
 
-console.log(Rx);
+//Observable
+let observable = Observable.create((observer: any) => {
+  observer.next('Hey guys!')
+});
+
+//Observer
+observable.subscribe((x: string) => addItem(x));
+
+function addItem (val: string) {
+  let node = document.createElement("li");
+  let textNode = document.createTextNode(val);
+  node.appendChild(textNode);
+  document.getElementById("output").appendChild(node);
+}
