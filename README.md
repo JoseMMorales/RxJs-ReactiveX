@@ -12,7 +12,7 @@
 * <b>Schedulers:</b> are centralized dispatchers to control concurrency, allowing us to coordinate when computation happens on e.g. setTimeout or requestAnimationFrame or others.
 
 ## Just to let you know...
-All comments and informations reflected in this repo has been taken from [RxJs App](https://rxjs.dev/)
+All comments and details reflected in this repo has been taken from [RxJs App](https://rxjs.dev/)
 
 ## Installing...
 Clone this repo and run `yarn install`. Then, run `yarn run start`.
