@@ -1,4 +1,7 @@
-## ReactiveX Project
+<h2 align="left">
+  <img src="https://user-images.githubusercontent.com/43299285/148022873-04cc409e-60fd-4b81-bb9c-a2d574b43f7b.jpeg" width="50">
+  ReactiveX Project
+</h2>
 
 [RxJs](https://rxjs.dev/guide/overview) is a library for managing asynchronous ans event-based programs by using observables sequences. [ReactiveX](https://reactivex.io/) combines the Observer pattern with the iterator pattern and functional programming with collections to fill the need for an ideal way of managing sequences of events.
 
